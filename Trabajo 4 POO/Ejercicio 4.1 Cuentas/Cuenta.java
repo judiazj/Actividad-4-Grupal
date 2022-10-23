@@ -1,5 +1,3 @@
-
-
 package Cuentas;
 
 import java.util.Scanner;
@@ -19,12 +17,7 @@ protected float tasaAnual;
 /* Atributo que define la comisión mensual que se cobra a una
 cuenta bancaria */
 protected float comisiónMensual = 0;
-
-Scanner input = new Scanner(System.in); // ingresamos los datos por teclado
-  System.out.println("Ingrese el saldo de la cuenta: ");
-        saldo = input.nextLine();
-  System.out.println("Ingrese la tasa anual: ");
-        tasaAnual = input.nextLine();
+   
 
 public Cuenta(float saldo, float tasaAnual) {
 this.saldo = saldo;
@@ -77,3 +70,4 @@ calcularInteres();
 
 
 }
+
