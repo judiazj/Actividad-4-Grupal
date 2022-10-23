@@ -1,4 +1,3 @@
-
 package Cuentas;
 
 import java.util.Scanner;
@@ -14,11 +13,6 @@ Scanner input = new Scanner(System.in); // ingresamos los datos por teclado
 
 
 
-  System.out.println("Ingrese el saldo de la cuenta: ");
-        saldo = input.nextLine();
-  System.out.println("Ingrese la tasa anual: ");
-        tasaAnual = input.nextLine();
-
 public CuentaAhorros(float saldo, float tasa) {
 super(saldo, tasa);
 if (saldo < 10000) /* Si el saldo es menor a 10000, la cuenta no
@@ -26,7 +20,7 @@ se activa */
 activa = false;
 else
     System.out.println("Ingrese el saldo a retirar de la cuenta: ");
-       cantidad = input.nextLine();
+      
 activa = true;
 }
 
@@ -72,6 +66,7 @@ System.out.println("Número de transacciones = " +(númeroConsignaciones + núme
 System.out.println();
 }
 }
+
 
 
 
