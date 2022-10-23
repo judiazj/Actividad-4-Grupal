@@ -37,11 +37,11 @@ public abstract class Ciclista {
         posicionGeneral = posicionGeneral;
     }
 
-    public int getTiempoAcumulado() {
+    protected int getTiempoAcumulado() {
         return tiempoAcumulado;
     }
 
-    public void setTiempoAcumulado(int tiempoAcumulado) {
+    protected void setTiempoAcumulado(int tiempoAcumulado) {
         this.tiempoAcumulado = tiempoAcumulado;
     }
 
