@@ -25,11 +25,11 @@ public class Equipo {
         this.nombre = nombre;
     }
 
-    public String getPais() {
+    private String getPais() {
         return pais;
     }
 
-    public void setPais(String pais) {
+    private void setPais(String pais) {
         this.pais = pais;
     }
 
