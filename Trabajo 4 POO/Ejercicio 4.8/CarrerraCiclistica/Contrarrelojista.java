@@ -8,11 +8,11 @@ public class Contrarrelojista extends Ciclista{
         this.velocidadMaxima = velocidadMaxima;
     }
 
-    public double getVelocidadMaxima() {
+    protected double getVelocidadMaxima() {
         return velocidadMaxima;
     }
 
-    public void setVelocidadMaxima(double velocidadMaxima) {
+    protected void setVelocidadMaxima(double velocidadMaxima) {
         this.velocidadMaxima = velocidadMaxima;
     }
 
