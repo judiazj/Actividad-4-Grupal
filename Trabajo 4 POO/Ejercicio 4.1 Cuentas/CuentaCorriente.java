@@ -1,4 +1,3 @@
-
 package Cuentas;
 import java.util.Scanner;
 
@@ -12,16 +11,8 @@ Scanner input = new Scanner(System.in); // ingresamos los datos por teclado
 
 
 
-  System.out.println("Ingrese el saldo de la cuenta: ");
-        saldo = input.nextLine();
-  System.out.println("Ingrese la tasa anual: ");
-        tasaAnual = input.nextLine();
-/**
-* Constructor de la clase CuentaCorrienta
-* @param saldo Parámetro que define el saldo de la cuenta corriente
-* @param tasa Parámetro que define la tasa anual de interés de la
-* cuenta corriente
-*/
+ 
+
 public CuentaCorriente(float saldo, float tasa) {
 super(saldo, tasa); // Invoca al constructor de la clase padre
 sobregiro = 0; // Inicialmente no hay sobregiro
@@ -89,3 +80,4 @@ System.out.println("Valor de sogregiro = $ " + (númeroConsignaciones + númeroR
 System.out.println();
 }   
 }
+
